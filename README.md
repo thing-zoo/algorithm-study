@@ -50,16 +50,25 @@
 -  comment는 이번주에 풀었던 문제의 알고리즘 분류가 어떻게 되는지, <br> 어떤 문제가 어려웠는지 회고를 작성
 
 
-#### Commit Message
+#### Commit Message Rule
 - commit 메세지: [문제 출처(플랫폼)] 문제이름(번호) / 난이도 / 걸린시간 
 - description: 문제 주소 (option)
 - 터미널에서 작성법: 
 ```
 git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.net/problem/2557"
 ```
-- 플랫폼 작성법 통일: 
-  * [BOJ] - 백준 
-  * [PGS] - 프로그래머스
+- type: 
+   - [BOJ] : 백준 
+   - [PGS] : 프로그래머스
+   - [ADD] : 문제 풀이 파일이나 부수적인 코드 추가
+   - [MOD] : 코드 및 내부 파일 수정
+   - [DEL] : 쓸모없는 코드나 파일 삭제
+   - [CORRECT] : 문법 오류 해결, 타입 변경, 이름 변경 등의 작은 수정
+   - [DOCS] : README 등의 문서 개정
+   - [MOVE] : 프로젝트 파일 및 코드 이동
+   - [RENAME] : 파일 이름 변경
+   - [MERGE] : 다른 브랜치와의 충돌 해결 후 Merge
+   - [REFACTOR] : 전면 수정
 
 ## 📁 파일 및 폴더 구조
 
@@ -75,10 +84,10 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
 
 [바킹독 알고리즘 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
 
-| **주차** | **내용**                                                 | **진행 현황** |
+| **주차** | **내용** | **진행 현황** |
 | -------- | ------------------------------------------------------------ | ------------- |
 | 1주차     | [기초 문제](https://www.acmicpc.net/workbook/view/7306), [배열](https://www.acmicpc.net/workbook/view/7307), [연결리스트](https://www.acmicpc.net/workbook/view/7308)|               |
 
-### 참고
+## 참고
 https://github.com/soo5717/2021-Algorithm-Study/ <br>
 https://github.com/ellynhan/challenge100-codingtest-study
