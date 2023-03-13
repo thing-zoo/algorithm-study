@@ -16,28 +16,20 @@ for i in range(n):
             del queue[0]
         else:
             print(-1)
-            res.append(-1)
     elif cmd == "size":
         print(len(queue))
-        res.append(-1)
     elif cmd == "empty":
         if len(queue) == 0:
             print(1)
-            res.append(-1)
         else:
             print(0)
-            res.append(-1)
     elif cmd == "front":
         if len(queue) != 0:
             print(queue[0])
-            res.append(-1)
         else:
             print(-1)
-            res.append(-1)
     elif cmd == "back":
         if len(queue) != 0:
             print(queue[len(queue)-1])
-            res.append(queue[len(queue)-1])
         else:
             print(-1)
-            res.append(-1)
