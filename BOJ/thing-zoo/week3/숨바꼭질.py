@@ -1,22 +1,17 @@
 from collections import deque
 def bfs():
-    q = deque([[n, 0]]) # 위치, 걸린시간
-    visited[n] = True 
+    q = deque([n]) # 위치, 걸린시간
     while q:
         x = q.popleft()
-        if x[0] == k: # k에 도달하면 탈출
-            return x[1]
-        for i in dir: # 이동
-            if i == 2:
-                nx = x[0] * 2
-            else:
-                nx = x[0] + i
+        if x == k: # k에 도달하면 탈출
+            print(dist[x])
+            break
+        for nx in (x-1, x+1, x*2): # 이동
             if 0 <= nx <= MAX:
-                if not visited[nx]:
-                    visited[nx] = True
-                    q.append([nx, x[1] + 1])
-dir = [ -1, 1, 2 ]
+                if not dist[nx]:
+                    dist[nx] = dist[x] + 1
+                    q.append(nx)
 MAX = 10 ** 5
 n, k = map(int, input().split())
-visited = [False] * (MAX + 1)
-print(bfs())
+dist = [0] * (MAX + 1) # 걸린시간 겸 방문표시
+bfs()
