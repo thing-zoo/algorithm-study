@@ -42,18 +42,10 @@ check = 1
 
 for i in range(n):
     for j in range(m):
-        if box[i][j] == 1 or box[i][j] == -1:
-            continue
-        else:
-            check = 0
-for i in range(n):
-    for j in range(m):
         if box[i][j] == 0 and check != -1:
            print(-1)
            check = -1
-           break
+           exit()
 
 if check == 1:
     print(cntDate)
-elif check == 0:
-    print(0)
