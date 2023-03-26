@@ -1,7 +1,7 @@
 # 🧸 algorithm-study 💛
 취업을 위한 알고리즘 스터디
 
-- 기간: 2022년 3월~
+- 기간: 2023년 3월~
 - 정기 회의: 토요일 오후 8시
 - 참고 사이트: [프로그래머스](https://programmers.co.kr/learn/challenges), [백준](https://www.acmicpc.net/)
 - 언어: python
@@ -94,7 +94,8 @@
 | - | - | - | - | - |
 | 1주차 | [기초 문제](https://www.acmicpc.net/workbook/view/7306), [배열](https://www.acmicpc.net/workbook/view/7307), [연결리스트](https://www.acmicpc.net/workbook/view/7308)| ✅ | ✅ | ✅ |
 | 2주차 | [스택](https://www.acmicpc.net/workbook/view/7309), [큐](https://www.acmicpc.net/workbook/view/7310), [덱](https://www.acmicpc.net/workbook/view/7311), [스택의 활용](https://www.acmicpc.net/workbook/view/7312), [코테 고득점kit](https://school.programmers.co.kr/learn/courses/30/parts/12081)| ✅ | ✅ | ✅ |
-| 3주차 | [BFS/DFS](https://www.acmicpc.net/workbook/view/7313), [코테 고득점kit](https://school.programmers.co.kr/learn/courses/30/parts/12421) | | | |
+| 3주차 | [BFS/DFS](https://www.acmicpc.net/workbook/view/7313), [코테 고득점kit](https://school.programmers.co.kr/learn/courses/30/parts/12421) | ✅ | ✅ | ✅ |
+| 4주차 | [재귀](https://www.acmicpc.net/workbook/view/7314) | | | |
 
 ## 👉🏻 참고
 https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog <br>
