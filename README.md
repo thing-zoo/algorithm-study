@@ -95,7 +95,7 @@
 | 1주차 | [기초 문제](https://www.acmicpc.net/workbook/view/7306), [배열](https://www.acmicpc.net/workbook/view/7307), [연결리스트](https://www.acmicpc.net/workbook/view/7308)| ✅ | ✅ | ✅ |
 | 2주차 | [스택](https://www.acmicpc.net/workbook/view/7309), [큐](https://www.acmicpc.net/workbook/view/7310), [덱](https://www.acmicpc.net/workbook/view/7311), [스택의 활용](https://www.acmicpc.net/workbook/view/7312), [코테 고득점kit](https://school.programmers.co.kr/learn/courses/30/parts/12081)| ✅ | ✅ | ✅ |
 | 3주차 | [BFS/DFS](https://www.acmicpc.net/workbook/view/7313), [코테 고득점kit](https://school.programmers.co.kr/learn/courses/30/parts/12421) | ✅ | ✅ | ✅ |
-| 4주차 | [재귀](https://www.acmicpc.net/workbook/view/7314) | | | |
+| 4주차 | [재귀](https://www.acmicpc.net/workbook/view/7314), [코테 고득점kit](https://school.programmers.co.kr/learn/challenges?tab=algorithm_practice_kit)| | | |
 
 ## 👉🏻 참고
 https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog <br>
