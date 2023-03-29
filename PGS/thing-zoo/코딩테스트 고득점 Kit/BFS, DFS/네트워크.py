@@ -1,13 +1,24 @@
+from collections import deque
+def bfs(v, visited):
+    q = deque()
+    q.append(v)
+    visited[v] = True
+    while q:
+        v = q.popleft()
+        for i, w in enumerate(computers[v]):
+            if i == v: continue
+            if w == 1 and not visited[i]:
+                visited[i] = True
+                q.append(i)
+
+
 def solution(n, computers):
     answer = 0
-    network = [[] for _ in range(n)]
-    visited = [0]*n
-    visited[0] = 1
+    visited = [False]*n
     for i in range(n):
-        for j in range(i+1, n):
-            if computers[i][j] and not visited[j]:
-                network[i].append(j)
-                visited[j] = 1
+        if not visited[i]:
+            bfs(i, visited)
+            answer += 1
 
     return answer
 n = 3
