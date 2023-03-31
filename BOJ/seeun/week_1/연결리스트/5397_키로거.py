@@ -3,23 +3,22 @@ n = int(input())
 
 for i in range(n):
     pw = list(sys.stdin.readline().strip())
-    left = []
-    right = []
+    origin = []
+    temp = []
     for j in pw:
-        # print(j)
         if j == "<":
-            if len(left)>0:
-                tmp = left.pop()
-                right = [tmp]+right
+            if origin:
+                temp.append(origin.pop())
         elif j == ">":
-            if len(right)>0:
-                left = left + [right[0]]
-                right = right[1:]
+            if temp:
+                origin.append(temp.pop())
         elif j == "-":
-            if len(left)>0:
-                left.pop()
+            if origin:
+                origin.pop()
         else:
-            left.append(j)
-        print(left, right)
+            origin.append(j)
         
-    print(*left, *right, sep="")
+    while temp:
+        origin.append(temp.pop())
+
+    print(*origin, sep="")
