@@ -1,10 +1,10 @@
 # 🧸 algorithm-study 💛
 취업을 위한 알고리즘 스터디
 
-- 기간: 2022년 3월~
+- 기간: 2023년 3월~
 - 정기 회의: 토요일 오후 8시
 - 참고 사이트: [프로그래머스](https://programmers.co.kr/learn/challenges), [백준](https://www.acmicpc.net/)
-- 언어: 파이썬
+- 언어: python
 
 ## 📚 스터디 규칙 
 
@@ -42,43 +42,64 @@
 5. 원본 저장소로 Pull Request를 한다.
 6. 다른 사람들의 PR을 보고 자유롭게 코드리뷰를 한다.
 
-## 💬 PR 및 Commit Message 규칙
+## 💬 PR 및 Commit Message Rule
 
 #### Pull Request
-- PR 제목: 이름 / 주차 / 몇 문제
--  ```thing-zoo / 3월 1주차 / 4문제 ```
--  comment는 이번주에 풀었던 문제의 알고리즘 분류가 어떻게 되는지, <br> 어떤 문제가 어려웠는지 회고를 작성
+- template
+```
+# 이름 / 주차 / 몇 문제 
+
+## 알고리즘 분류
+
+## 회고
+```
 
 
 #### Commit Message
-- commit 메세지: [문제 출처(플랫폼)] 문제이름(번호) / 난이도 / 걸린시간 
-- description: 문제 주소 (option)
-- 터미널에서 작성법: 
+- template
 ```
-git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.net/problem/2557"
+### [문제 출처(플랫폼)] 문제이름(번호) / 난이도 / 걸린시간
+##### 제목은 최대 50 글자까지만 입력 ############## -> |
+
+## 해결방법 및 핵심로직
+
+## (작성한 테스트케이스)
+
+## 그 외 팁들 혹은 레퍼런스
+
+######## 본문은 한 줄에 최대 72 글자까지만 입력 ########################### -> |
+
+# 꼬릿말은 아래에 작성: ex) #이슈 번호
 ```
-- 플랫폼 작성법 통일: 
-  * [BOJ] - 백준 
-  * [PGS] - 프로그래머스
+- type: 
+   - [BOJ] : 백준 
+   - [PGS] : 프로그래머스
+   - [ADD] : 문제 풀이 파일이나 부수적인 코드 추가
+   - [MOD] : 코드 및 내부 파일 수정
+   - [DEL] : 쓸모없는 코드나 파일 삭제
+   - [CORRECT] : 문법 오류 해결, 타입 변경, 이름 변경 등의 작은 수정
+   - [DOCS] : README 등의 문서 개정
+   - [MOVE] : 프로젝트 파일 및 코드 이동
+   - [RENAME] : 파일 이름 변경
+   - [MERGE] : 다른 브랜치와의 충돌 해결 후 Merge
+   - [REFACTOR] : 전면 수정
 
 ## 📁 파일 및 폴더 구조
 
-#### 프로그래머스
-
-- PGS/이름/폴더명/문제명.py
-
-#### 백준
-
-- BOJ/이름/폴더명/문제번호_문제명.py
+- 플랫폼/이름/폴더명/문제명.py
 
 ## 🗓️ 일정표
 
-[바킹독 알고리즘 문제집](https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog)
+| **주차** | **내용** | **명주** | **세은** | **회의** |
+| - | - | - | - | - |
+| 1주차 | [기초 문제](https://www.acmicpc.net/workbook/view/7306), [배열](https://www.acmicpc.net/workbook/view/7307), [연결리스트](https://www.acmicpc.net/workbook/view/7308)| ✅ | ✅ | ✅ |
+| 2주차 | [스택](https://www.acmicpc.net/workbook/view/7309), [큐](https://www.acmicpc.net/workbook/view/7310), [덱](https://www.acmicpc.net/workbook/view/7311), [스택의 활용](https://www.acmicpc.net/workbook/view/7312), [코테 고득점kit](https://school.programmers.co.kr/learn/courses/30/parts/12081)| ✅ | ✅ | ✅ |
+| 3주차 | [BFS/DFS](https://www.acmicpc.net/workbook/view/7313), [코테 고득점kit](https://school.programmers.co.kr/learn/courses/30/parts/12421) | ✅ | ✅ | ✅ |
+| 4주차 | [재귀](https://www.acmicpc.net/workbook/view/7314) | ✅ | ✅ | ✅ |
+| 5주차 | [백트랙킹](https://www.acmicpc.net/workbook/view/7315) |  |  |  |
 
-| **주차** | **내용**                                                 | **진행 현황** |
-| -------- | ------------------------------------------------------------ | ------------- |
-| 1주차     | [기초 문제](https://www.acmicpc.net/workbook/view/7306), [배열](https://www.acmicpc.net/workbook/view/7307), [연결리스트](https://www.acmicpc.net/workbook/view/7308)|               |
-
-### 참고
+## 👉🏻 참고
+https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog <br>
+https://school.programmers.co.kr/learn/challenges?tab=algorithm_practice_kit <br>
 https://github.com/soo5717/2021-Algorithm-Study/ <br>
 https://github.com/ellynhan/challenge100-codingtest-study
