@@ -96,7 +96,8 @@
 | 2주차 | [스택](https://www.acmicpc.net/workbook/view/7309), [큐](https://www.acmicpc.net/workbook/view/7310), [덱](https://www.acmicpc.net/workbook/view/7311), [스택의 활용](https://www.acmicpc.net/workbook/view/7312), [코테 고득점kit](https://school.programmers.co.kr/learn/courses/30/parts/12081)| ✅ | ✅ | ✅ |
 | 3주차 | [BFS/DFS](https://www.acmicpc.net/workbook/view/7313), [코테 고득점kit](https://school.programmers.co.kr/learn/courses/30/parts/12421) | ✅ | ✅ | ✅ |
 | 4주차 | [재귀](https://www.acmicpc.net/workbook/view/7314) | ✅ | ✅ | ✅ |
-| 5주차 | [백트랙킹](https://www.acmicpc.net/workbook/view/7315) |  |  |  |
+| 5주차 | [백트랙킹](https://www.acmicpc.net/workbook/view/7315) | ✅ | ✅ | ✅ |
+| 6주차 | [시뮬레이션](https://www.acmicpc.net/workbook/view/7316) |  |  |  |
 
 ## 👉🏻 참고
 https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog <br>
