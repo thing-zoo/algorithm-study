@@ -97,7 +97,9 @@
 | 3주차 | [BFS/DFS](https://www.acmicpc.net/workbook/view/7313), [코테 고득점kit](https://school.programmers.co.kr/learn/courses/30/parts/12421) | ✅ | ✅ | ✅ |
 | 4주차 | [재귀](https://www.acmicpc.net/workbook/view/7314) | ✅ | ✅ | ✅ |
 | 5주차 | [백트랙킹](https://www.acmicpc.net/workbook/view/7315) | ✅ | ✅ | ✅ |
-| 6주차 | [시뮬레이션](https://www.acmicpc.net/workbook/view/7316) |  |  |  |
+| 6주차 | [시뮬레이션](https://www.acmicpc.net/workbook/view/7316) | ✅ | ✅ | ✅ |
+| 7주차 | [정렬1](https://www.acmicpc.net/workbook/view/7317), [정렬2](https://www.acmicpc.net/workbook/view/7318) | | | |
+
 
 ## 👉🏻 참고
 https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog <br>
