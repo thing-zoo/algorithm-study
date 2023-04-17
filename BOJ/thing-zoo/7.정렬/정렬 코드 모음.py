@@ -53,6 +53,43 @@ def quick_sort(arr, start, end):
     quick_sort(arr, start, r)
     quick_sort(arr, r+1, end)
 
+def counting_sort(arr):
+    count = [0] * (max(arr) + 1) #인덱스가 0~max인 배열
+
+    # 각 값 카운팅
+    for num in arr:
+        count[num] += 1
+    
+    # 해당 값의 마지막 인덱스 구하기
+    for i in range(len(count)-1):
+        count[i+1] += count[i]
+    
+    # 정렬된 결과 넣기
+    result = [0] * (len(arr))
+    for num in arr:
+        i = count[num]
+        result[i - 1] = num
+        count[num] -= 1
+    print(*result)
+
+from collections import deque
+def radix_sort(arr):
+    buckets = [deque() for _ in range(10)]
+
+    max_val = max(arr)  # 최대값이 가진 자릿수까지 돌려야함
+    cur_ten = 1         # 일의 자리부터시작
+    q = deque(arr)
+
+    while max_val >= cur_ten:
+        while q:
+            x = q.popleft()
+            buckets[(x // cur_ten) % 10].append(x)
+        for bucket in buckets:
+            while bucket:
+                q.append(bucket.popleft())
+        cur_ten *= 10
+    return list(q)
+
 arr = [3, 2, 7, 116, 62, 235, 1, 23, 55, 77]
-quick_sort(arr, 0, len(arr))
-print(*arr)
+# counting_sort([4, 7, 9, 1, 3, 5, 2, 3, 4])
+print(radix_sort([15, 27, 64, 25, 50, 17, 39, 28]))
