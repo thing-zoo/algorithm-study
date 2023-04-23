@@ -98,7 +98,8 @@
 | 4주차 | [재귀](https://www.acmicpc.net/workbook/view/7314) | ✅ | ✅ | ✅ |
 | 5주차 | [백트랙킹](https://www.acmicpc.net/workbook/view/7315) | ✅ | ✅ | ✅ |
 | 6주차 | [시뮬레이션](https://www.acmicpc.net/workbook/view/7316) | ✅ | ✅ | ✅ |
-| 7주차 | [정렬1](https://www.acmicpc.net/workbook/view/7317), [정렬2](https://www.acmicpc.net/workbook/view/7318) | | | |
+| 7주차 | [정렬1](https://www.acmicpc.net/workbook/view/7317), [정렬2](https://www.acmicpc.net/workbook/view/7318) | ✅ | ✅ | ✅ |
+| 8주차 | [DP](https://www.acmicpc.net/workbook/view/7319) | | | |
 
 
 ## 👉🏻 참고
