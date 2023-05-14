@@ -100,7 +100,9 @@
 | 6주차 | [시뮬레이션](https://www.acmicpc.net/workbook/view/7316) | ✅ | ✅ | ✅ |
 | 7주차 | [정렬1](https://www.acmicpc.net/workbook/view/7317), [정렬2](https://www.acmicpc.net/workbook/view/7318) | ✅ | ✅ | ✅ |
 | 8주차 | [DP](https://www.acmicpc.net/workbook/view/7319) | ✅ | ✅ | ✅ |
-| 9주차 | [그리디](https://www.acmicpc.net/workbook/view/7320) |  |  |  |
+| 9주차 | [그리디](https://www.acmicpc.net/workbook/view/7320) | ✅ | ✅ | ✅ |
+| 10주차 | [수학](https://www.acmicpc.net/workbook/view/8174) | ✅ | ✅ | ✅ |
+| 11주차 | [이분탐색](https://www.acmicpc.net/workbook/view/8400) |  |  |  |
 
 
 ## 👉🏻 참고
