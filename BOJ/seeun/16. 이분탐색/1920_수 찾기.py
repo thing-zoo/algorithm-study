@@ -5,6 +5,7 @@ b = list(map(int, input().split()))
 
 a.sort()
 
+# 이진탐색 
 def binary_search(num, arr):
     start = 0
     end = len(arr)-1
