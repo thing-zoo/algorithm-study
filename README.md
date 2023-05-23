@@ -102,7 +102,8 @@
 | 8주차 | [DP](https://www.acmicpc.net/workbook/view/7319) | ✅ | ✅ | ✅ |
 | 9주차 | [그리디](https://www.acmicpc.net/workbook/view/7320) | ✅ | ✅ | ✅ |
 | 10주차 | [수학](https://www.acmicpc.net/workbook/view/8174) | ✅ | ✅ | ✅ |
-| 11주차 | [이분탐색](https://www.acmicpc.net/workbook/view/8400) |  |  |  |
+| 11주차 | [이분탐색](https://www.acmicpc.net/workbook/view/8400) | ✅ | ✅ | ✅ |
+| 12주차 | [투 포인터](https://www.acmicpc.net/workbook/view/8709), [해시](https://www.acmicpc.net/workbook/view/9063) |  |  |  |
 
 
 ## 👉🏻 참고
