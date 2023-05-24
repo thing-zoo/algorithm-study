@@ -15,7 +15,6 @@ for i in range(m):
         back += 1
         if q[j] == data[i]:
             break
-
     if front < back: #2번
         q.rotate(-front)
         ans += front
