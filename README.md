@@ -105,7 +105,7 @@
 | 11주차 | [이분탐색](https://www.acmicpc.net/workbook/view/8400) | ✅ | ✅ | ✅ |
 | 12주차 | [투 포인터](https://www.acmicpc.net/workbook/view/8709), [해시](https://www.acmicpc.net/workbook/view/9063) | ✅ | ✅ | ✅ |
 | 13주차 | [해시](https://www.acmicpc.net/workbook/view/9063), [이진검색트리](https://www.acmicpc.net/workbook/view/9346) | ✅ | ✅ | ✅ |
-| 14주차 | [이진검색트리](https://www.acmicpc.net/workbook/view/9346) |  문제가 더러운 관계로 기권선언  |
+| 14주차 | [이진검색트리](https://www.acmicpc.net/workbook/view/9346) | 문제가 | 더러운 관계로 | 기권선언 |
 | 15주차 | [우선순위큐](https://www.acmicpc.net/workbook/view/9502) |  |  |  |
 
 
