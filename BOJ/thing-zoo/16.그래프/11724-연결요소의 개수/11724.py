@@ -1,3 +1,4 @@
+from collections import deque
 import sys
 input = sys.stdin.readline
 n, m = map(int, input().split())
@@ -5,15 +6,15 @@ graph = [[] for _ in range(n)]
 visited = [False]*n
 answer = 0
 
-def dfs(i):
-    stack = [i]
+def bfs(i):
+    q = deque([i])
     visited[i] = True
-    while stack:
-        x = stack.pop()
+    while q:
+        x = q.popleft()
         for y in graph[x]:
             if not visited[y]:
                 visited[y] = True
-                stack.append(y)
+                q.append(y)
     
 
 for _ in range(m):
@@ -23,6 +24,6 @@ for _ in range(m):
 
 for i in range(n):
     if not visited[i]:
-        dfs(i)
+        bfs(i)
         answer+=1
 print(answer)
