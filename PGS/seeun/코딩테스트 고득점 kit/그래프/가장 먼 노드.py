@@ -1,5 +1,4 @@
 import heapq
-  
 def solution(n, edge):
     answer = 0
     graph = [[] for _ in range(n+1)]
