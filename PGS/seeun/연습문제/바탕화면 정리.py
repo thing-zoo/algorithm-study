@@ -8,7 +8,7 @@ def solution(wallpaper):
         for j in range(m):
             if wallpaper[i][j] == "#":
                 lux = min(lux, i) # 가장 위쪽 행
-                luy = min(luy, j) # 가장 왼쫄 열
+                luy = min(luy, j) # 가장 왼쪽 열
                 rdx = max(rdx, i) # 가장 아래쪽 행
                 rdy = max(rdy, j) # 가장 오른쪽 열
     
