@@ -1,23 +1,27 @@
 # 🧸 algorithm-study 💛
 취업을 위한 알고리즘 스터디
 
-- 기간: 2023년 3월~
-- 정기 회의: 토요일 오후 8시
+- 기간: 2024년 1월~
 - 참고 사이트: [프로그래머스](https://programmers.co.kr/learn/challenges), [백준](https://www.acmicpc.net/)
-- 언어: python
+- 언어: python, java
 
-## 📚 스터디 규칙 
+## 📚 스터디 규칙
+
+#### 📍진행 방식
+
+- 자료구조/알고리즘 개념 블로그에 정리하기
+- 주차별 문제집 최소 5문제이상 풀기
+- 깃허브 활용해서 Pull Request로 코드 리뷰 진행함
+- 반드시 코드 리뷰 후에 main branch로 merge
+   - 서로에 대한 코드 리뷰는 토요일까지 완료하기
+   - 기본적으로 올릴 때는 각자 이름으로 된 branch에 올림.
 
 #### 📍문제 풀이
 
-1. 주마다 문제를 선정해서 문제 풀이를 진행함. 회의 시간에는 각자 1문제 풀이 설명.
-   1. 개념+알고리즘+풀이 방식 자세하게 설명하기. 
-   2. 만약 상대가 이해 못하면 이해할 때까지 설명해야 함.
-2. 깃허브 활용해서 Pull Request로 코드 리뷰 진행함.
-   1. 서로에 대한 코드 리뷰는 토요일까지 완료하기.
-   2. 반드시 코드 리뷰 후에 main branch로 merge.
-   3. 기본적으로 올릴 때는 각자 이름으로 된 branch에 올림.
-3. 코드 리뷰 받은 것에 대해서는 다음 회의 전까지 수정해서 다시 깃허브에 올리기.
+- 주차별 문제집 문제 풀이를 진행
+   - 회의 시간에는 각자 1문제 풀이 설명
+   - 개념+알고리즘+풀이 방식 자세하게 설명하기
+   - 만약 상대가 이해 못하면 이해할 때까지 설명해야 함
 
 #### 📍설명 방식
 
@@ -28,11 +32,6 @@
 5. 시간 복잡도, 공간 복잡도 계산 => 어려우면 실행 시간 캡처로 대체
 6. 사용 라이브러리 정리
 7. 기타(문제 풀이에 어려웠던 점, 구현하고자 했는데 실패한 방식)
-
-#### 📍진행 방식
-
-- 만약 주차에 해당하는 문제 풀이가 미완료 시, 회의 당일에 직접 문제 풀이 진행해야 함.
-- 끝날 때까지 회의는 끝나지 않음.....
 
 #### 📍참여 방법
 1. 이 저장소를 fork 한다.
@@ -92,28 +91,11 @@
 
 | **주차** | **내용** | **명주** | **세은** | **회의** |
 | - | - | - | - | - |
-| 1주차 | [기초 문제](https://www.acmicpc.net/workbook/view/7306), [배열](https://www.acmicpc.net/workbook/view/7307), [연결리스트](https://www.acmicpc.net/workbook/view/7308)| ✅ | ✅ | ✅ |
-| 2주차 | [스택](https://www.acmicpc.net/workbook/view/7309), [큐](https://www.acmicpc.net/workbook/view/7310), [덱](https://www.acmicpc.net/workbook/view/7311), [스택의 활용](https://www.acmicpc.net/workbook/view/7312), [코테 고득점kit](https://school.programmers.co.kr/learn/courses/30/parts/12081)| ✅ | ✅ | ✅ |
-| 3주차 | [BFS/DFS](https://www.acmicpc.net/workbook/view/7313), [코테 고득점kit](https://school.programmers.co.kr/learn/courses/30/parts/12421) | ✅ | ✅ | ✅ |
-| 4주차 | [재귀](https://www.acmicpc.net/workbook/view/7314) | ✅ | ✅ | ✅ |
-| 5주차 | [백트랙킹](https://www.acmicpc.net/workbook/view/7315) | ✅ | ✅ | ✅ |
-| 6주차 | [시뮬레이션](https://www.acmicpc.net/workbook/view/7316) | ✅ | ✅ | ✅ |
-| 7주차 | [정렬1](https://www.acmicpc.net/workbook/view/7317), [정렬2](https://www.acmicpc.net/workbook/view/7318) | ✅ | ✅ | ✅ |
-| 8주차 | [DP](https://www.acmicpc.net/workbook/view/7319) | ✅ | ✅ | ✅ |
-| 9주차 | [그리디](https://www.acmicpc.net/workbook/view/7320) | ✅ | ✅ | ✅ |
-| 10주차 | [수학](https://www.acmicpc.net/workbook/view/8174) | ✅ | ✅ | ✅ |
-| 11주차 | [이분탐색](https://www.acmicpc.net/workbook/view/8400) | ✅ | ✅ | ✅ |
-| 12주차 | [투 포인터](https://www.acmicpc.net/workbook/view/8709), [해시](https://www.acmicpc.net/workbook/view/9063) | ✅ | ✅ | ✅ |
-| 13주차 | [해시](https://www.acmicpc.net/workbook/view/9063), [이진검색트리](https://www.acmicpc.net/workbook/view/9346) | ✅ | ✅ | ✅ |
-| 14주차 | [이진검색트리](https://www.acmicpc.net/workbook/view/9346) (문제가 더러운 관계로 기권선언) | ❌ | ❌ | ✅ |
-| 15주차 | [우선순위큐](https://www.acmicpc.net/workbook/view/9502) | ✅ | ✅ | ✅ |
-| 16주차 | [그래프](https://www.acmicpc.net/workbook/view/9562)| ✅ | ✅ | ✅ |
-| 17주차 | [트리](https://www.acmicpc.net/workbook/view/9657)| ❌ | ✅ | ✅ |
-| 18주차 | [위상정렬](https://www.acmicpc.net/workbook/view/9738)| ❌ | ✅ | ✅ |
-| 19주차 | [최소신장트리](https://www.acmicpc.net/workbook/view/9907)| | | |
+| 1주차 | [자료구조](https://github.com/tony9402/baekjoon/tree/main/data_structure), [자료구조2](https://github.com/tony9402/baekjoon/tree/main/data_structure2) | | | |
+| 2주차 |  | | | |
+| 3주차 |  | | | |
+| 4주차 |  | | | |
+| 5주차 |  | | | |
 
 ## 👉🏻 참고
-https://www.acmicpc.net/workbook/by/BaaaaaaaaaaarkingDog <br>
-https://school.programmers.co.kr/learn/challenges?tab=algorithm_practice_kit <br>
-https://github.com/soo5717/2021-Algorithm-Study/ <br>
-https://github.com/ellynhan/challenge100-codingtest-study
+https://github.com/tony9402/baekjoon?tab=readme-ov-file <br>
