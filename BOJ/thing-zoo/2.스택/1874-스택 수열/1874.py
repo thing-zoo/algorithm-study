@@ -1,24 +1,19 @@
-import sys
-n = int(sys.stdin.readline())
+n = int(input())
+cur = 1 # 스택에 넣을 번호
 stack = []
-result = []
-cur = 1
-flag = 0
+answer = []
 for _ in range(n):
-    data = int(sys.stdin.readline())
-    while cur <= data: #입력한 수까지 오름차순 푸시
-        stack.append(cur)
-        result.append("+")
-        cur += 1 #다음수부터 입력하도록 표시
-
-    if data == stack[-1]: #top이면 pop    
-        stack.pop()
-        result.append("-")
-    else:
-        print("NO")
-        flag = 1
-        break
-
-if flag == 0:
-    for i in result:
-        print(i)
+    x = int(input())
+    while cur <= x: # cur가 x에 도달할때까지
+        stack.append(cur) # 삽입
+        answer.append('+')
+        cur += 1
+    if stack[-1] == x: # top이 x면
+        stack.pop() # 제거
+        answer.append('-')
+    else: # 아니면
+        break # 불가능
+if stack: # 스택에 남아있으면
+    print('NO') # 불가능
+else:
+    print('\n'.join(answer)) # 가능
