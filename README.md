@@ -92,8 +92,8 @@
 | **주차** | **내용** | **명주** | **세은** | **회의** |
 | - | - | - | - | - |
 | 1주차 | [자료구조](https://github.com/tony9402/baekjoon/tree/main/data_structure), [자료구조2](https://github.com/tony9402/baekjoon/tree/main/data_structure2) | 🙆🏻‍♀️ | 🙆🏻‍♀️ | 🙆🏻‍♀️ |
-| 2주차 | [트리](https://github.com/tony9402/baekjoon/blob/main/tree), [수학](https://github.com/tony9402/baekjoon/blob/main/math) | | | |
-| 3주차 |  | | | |
+| 2주차 | [트리](https://github.com/tony9402/baekjoon/blob/main/tree), [수학](https://github.com/tony9402/baekjoon/blob/main/math) | 🙆🏻‍♀️ | 🙆🏻‍♀️ | 🙆🏻‍♀️ |
+| 3주차 | [그리디](https://github.com/tony9402/baekjoon/tree/main/greedy), [DP1](https://github.com/tony9402/baekjoon/tree/main/dynamic_programming_1)| | | |
 | 4주차 |  | | | |
 | 5주차 |  | | | |
 
