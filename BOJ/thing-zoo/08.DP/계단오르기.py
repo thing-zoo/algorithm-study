@@ -1,12 +1,15 @@
 n = int(input())
-data = [0] + [int(input()) for _ in range(n)]
-if n == 1: 
-    print(data[1])
+scores = [0] + [int(input()) for _ in range(n)]
+if n < 2:
+    print(scores[1])
 else:
-    dp = [[0]*(n+1) for _ in range(3)]
-    dp[1][1] = data[1]
-    dp[1][2] = data[1] + data[2]; dp[2][2] = data[2]
+    dp = [[0]*2 for _ in range(n+1)]
+    dp[1][0] = scores[1]
+    dp[2][0] = scores[1] + scores[2]
+    dp[2][1] = scores[2]
     for i in range(3, n+1):
-        dp[1][i] = dp[2][i-1] + data[i]
-        dp[2][i] = max(dp[1][i-2], dp[2][i-2]) + data[i]
-    print(max(dp[1][n], dp[2][n]))
+        # dp[i][0] = 1칸으로 i에 오른 경우
+        dp[i][0] = dp[i-1][1] + scores[i]
+        # dp[i][1] = 2칸으로 i에 오른 경우
+        dp[i][1] = max(dp[i-2]) + scores[i]
+    print(max(dp[n]))
