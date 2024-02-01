@@ -1,11 +1,7 @@
-t = int(input())
-data = [int(input()) for _ in range(t)]
-n = max(data)
-dp = [0]*(n+1)
-dp[1] = 1; dp[2] = 2; dp[3] = 4
-for i in range(4, n+1):
-    if i - 1: dp[i] += dp[i-1]
-    if i - 2: dp[i] += dp[i-2]
-    if i - 3: dp[i] += dp[i-3]
-for x in data:
-    print(dp[x])
+dp = [0]*11
+dp[0], dp[1], dp[2] = 1, 1, 2
+for i in range(3, 11):
+    dp[i] = dp[i-1] + dp[i-2] + dp[i-3]
+for _ in range(int(input())):
+    n = int(input())
+    print(dp[n])
