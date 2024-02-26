@@ -1,14 +1,11 @@
 n = int(input())
-dp = [0]*n
-dp[0] = 9
-count = [0]+[1]*9
+dp = [[0]*10 for _ in range(n)]
+dp[0] = [0] + [1]*9
 for i in range(1, n):
-    dp[i] = dp[i-1]*2 - (count[0]+count[9])
-    new_count = [0]*10
     for j in range(10):
-        if j - 1 >= 0:
-            new_count[j - 1] += count[j]
-        if j + 1 < 10:
-            new_count[j + 1] += count[j]
-    count = new_count[:]
-print(dp[n-1]%10**9)
+        if dp[i-1][j]:
+            if j != 0:
+                dp[i][j-1] += dp[i-1][j]%1000000000
+            if j != 9:
+                dp[i][j+1] += dp[i-1][j]%1000000000
+print(sum(dp[n-1])%1000000000)
