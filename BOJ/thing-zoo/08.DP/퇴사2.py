@@ -2,7 +2,6 @@ import sys
 input = sys.stdin.readline
 n = int(input())
 dp = [0]*(n+1) # dp[i] = i번째날의 최대 수익
-max_profit = 0
 for i in range(n):
     time, profit = map(int, input().rstrip().split())
     if i + time <= n: # 상담이 n일안에 가능하면 상담 진행
