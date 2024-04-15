@@ -1,0 +1,8 @@
+SELECT NAME, DATETIME
+FROM (SELECT I.ANIMAL_ID, I.NAME, I.DATETIME
+      FROM ANIMAL_INS I, ANIMAL_OUTS O
+      WHERE I.ANIMAL_ID = O.ANIMAL_ID(+)
+      AND O.DATETIME IS NULL
+      ORDER BY I.DATETIME) -- left outer join으로 입양을 안간 동물들 가져옴 + 보호시작일 기준으로 정렬한 테이블
+WHERE ROWNUM <= 3 -- 에서 3번째 행 까지 출력
+ORDER BY DATETIME
