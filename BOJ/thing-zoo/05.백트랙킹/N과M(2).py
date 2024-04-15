@@ -1,17 +1,13 @@
-def f():
-    if len(result) == m:
-        print(*result)
+def dfs(res):
+    if len(res) == m:
+        print(*res)
         return
     for i in range(1, n+1):
-        if not visited[i]:
-            if result and result[-1] > i: 
-                continue # 오름차순이 아니면 넘기기
-            visited[i] = True
-            result.append(i)
-            f()
-            visited[i] = False
-            result.pop()
+        if res and res[-1] >= i: continue
+        if i not in res:
+            res.append(i)
+            dfs(res)
+            res.remove(i)
+    
 n, m = map(int, input().split())
-visited = [False]*(n+1)
-result = []
-f()
+dfs([])
